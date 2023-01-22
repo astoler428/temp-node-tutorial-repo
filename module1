@@ -1,0 +1,10 @@
+let x = 5;
+let y = 10;
+
+function addValues(x, y) {
+  console.log(x + y);
+}
+
+addValues(x, y);
+
+module.exports = { x, y, addValues };
